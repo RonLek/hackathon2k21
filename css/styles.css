@@ -427,6 +427,7 @@ p.cursor::after {
 	padding-bottom: 50px;
 }
 .sec-head h2{
+  padding-top: 3%;
 	font-size: 70px;
 	text-align: center;
 	font-family: 'Barlow Semi Condensed', sans-serif;
