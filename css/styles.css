@@ -63,9 +63,8 @@ html {
 	font-size: 5rem;
 }
 .smlogos{
-	position:absolute;
-	bottom: 100px;
-	left: 20px;
+	padding-top: 70px;
+	padding-left: 20px;
 }
 .socialmedia li{
 	list-style: none;
@@ -332,7 +331,7 @@ p.cursor::after {
 	margin-left: 10%;
 	margin-right: 10%;
 	background-color: #86c232;
-	opacity: 50%;
+	opacity: 70%;
 }
 .abh{
   margin-left: 5%;
@@ -341,7 +340,6 @@ p.cursor::after {
 .about-hack{
 	position:absolute;
 	top: 25%;
-	left: 10%;
 }
 .about-hack h2{
 	padding-top: 40px;
@@ -358,7 +356,7 @@ p.cursor::after {
 	letter-spacing: 2px;
 	font-size: 20px;
 	font-family: 'Montserrat';
-	padding-left: 25px;
+	padding-left: 14%;
 	width: 85%;
 	color: white;
 	padding-bottom: 80px;
@@ -416,7 +414,7 @@ p.cursor::after {
   font-weight: 300;
   color: #333;
   font-family: "Nunito Sans", sans-serif;
-	padding-top: 100px;
+	/* padding-top: 100px; */
 	width: 100%;
   min-height: 100vh;
   background: url("sec3.webp");
@@ -885,20 +883,15 @@ footer svg {
 
 /*Big break*/
 /*Road not taken*/
-#sponsors h2{
-	font-size: 70px;
-	text-align: center;
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	text-shadow: 0 0 20px #82c632;
-	color: #fff;
-}
+
 #sponsors{
   height: 100vh;
   background: url('section_sponsors.webp');
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 5%;
+  /* padding-top: 5%; */
 }
+
 
 
 /* Responsive footer */
@@ -1087,7 +1080,10 @@ footer svg {
 	@keyframes wave {
 	  to {transform: translateX(-100%);}
 	}
-
+  #title{
+    background-image: none;
+    background-color:rgba(0, 0, 0, 0.12);
+  }
 	.eclogo{
 		padding-top: 20px;
 		max-height: 100px;
@@ -1120,8 +1116,9 @@ footer svg {
 		font-size: 0.35rem;
 	}
 	.smlogos{
-		left: 5px;
-		bottom: 25px;
+    position: relative;
+		/* padding-left: 5px; */
+		padding-top: 40%;
 		font-size: 12px;
 	}
 	.socialmedia p{
@@ -1131,8 +1128,11 @@ footer svg {
 		display: inline;
 		padding-right: 20px;
 	}
+  #about{
+    padding-bottom: 10%;
+  }
 	.about-hack{
-		top: 15%;
+		top: 10%;
 	}
 	.about-hack h2{
 		font-size: 25px;
@@ -1141,8 +1141,9 @@ footer svg {
 	}
 	.about-hack p{
 		padding-top: 0;
-		font-size: 14px;
-		width: 90%;
+		font-size: 0.75rem;
+		width: 85%;
+    text-align: justify;
 	}
 	.icns-text h3{
     text-align: center;
@@ -1163,7 +1164,7 @@ footer svg {
 		padding-bottom: 10px;
 	}
 	.neon-box{
-		height: 90vh;
+		height: 95vh;
 	}
 	#about{
 		padding-top: 80px;
