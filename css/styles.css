@@ -276,10 +276,12 @@ p.cursor::after {
 
 }
 .countdown h2{
+  font-size: 2.5rem;
 	color: white;
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	padding-bottom: 20px;
 	color: #86c232;
+  text-shadow: 0 0 20px #373a37;
 }
 #timer {
     font-size: 3em;
@@ -1062,6 +1064,7 @@ footer svg {
 
 .footer-distributed .footer-icons{
 	margin-top: 25px;
+  color: #86c232;
 }
 
 .footer-distributed .footer-icons a{
@@ -1071,7 +1074,7 @@ footer svg {
 	cursor: pointer;
 	border-radius: 2px;
 	font-size: 25px;
-	color: #86c232;
+	
 	text-align: center;
 	line-height: 35px;
 
