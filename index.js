@@ -92,7 +92,7 @@ $(document).ready(function () {
     $('body').addClass('loaded');
 
     mainCode();
-  }, 3000);
+  }, 0);
 });
 function updateTimer() {
   future = Date.parse("june 08, 2021 00:00:00");
