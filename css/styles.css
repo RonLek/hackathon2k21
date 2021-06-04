@@ -483,6 +483,7 @@ p.cursor::after {
   color: #86c232;
 }
 .card1{
+  
 	background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,0.6)), url('android1.webp');
 }
 .card2{
@@ -870,7 +871,37 @@ footer svg {
   max-height: 0;
   color: white;
 }
+#prizes{
+  background-image: url("./Cornered-Stairs.svg");
+}
 
+.fprize{
+  font-size: 5rem;
+  color: gold;
+}
+.ptitle{
+  font-size: 2rem;
+  text-align: center;
+}
+.amountp{
+  margin-bottom: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+	text-shadow: 0 0 20px #82c632;
+	color: #fff;
+  font-size: 2rem;
+}
+.sidep{
+  margin-bottom: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+	text-shadow: 0 0 20px #82c632;
+	color: #fff;
+  font-size: 1.5rem;
+}
+.sprize{
+  padding-top: 5%;
+  font-size: 5rem;
+  color: silver;
+}
 /*SPEAKERS*/
 #speakers{
   background-image: url("./Cornered-Stairs.svg");
