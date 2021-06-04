@@ -63,7 +63,6 @@ html {
 	font-size: 5rem;
 }
 .smlogos{
-	padding-top: 70px;
 	padding-left: 20px;
 }
 .socialmedia li{
@@ -872,36 +871,62 @@ footer svg {
   color: white;
 }
 #prizes{
-  background-image: url("./Cornered-Stairs.svg");
+  background-image: url("./Confetti-Doodles.svg");
+  padding-bottom: 100px;
+}
+.prize-card{
+  
+  border-radius: 30%;
+  box-shadow: 5px 10px #000;
+  padding-top: 20px;
+  background-image: inherit;
+  transition: 0.2s;
+}
+.all-prizes{
+  background-image: inherit;
+  
+}
+.card-header{
+  background-color: #141614;
+}
+.prize-card:hover{
+  transform: scale(1.1) ;
+}
+.theme-title{
+  font-size:2.5rem;
+  text-align: center;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-shadow: 0 0 20px #82c632;
+	color: #fff;
+}
+.gmedal{
+  font-size: 5rem;
+	text-align: center;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-shadow: 0 0 20px #82c632;
+	color: gold;
+}
+.smedal{
+  font-size: 5rem;
+	text-align: center;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-shadow: 0 0 20px #82c632;
+	color: silver;
+}
+.prize-amount{
+	text-align: left;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-shadow: 0 0 20px #82c632;
+	color: #fff;
+}
+.prize-amount h4{
+  font-size: 2.2rem;
 }
 
-.fprize{
-  font-size: 5rem;
-  color: gold;
+.prize-amount h6{
+  font-size: 1.2rem;
 }
-.ptitle{
-  font-size: 2rem;
-  text-align: center;
-}
-.amountp{
-  margin-bottom: 0;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-	text-shadow: 0 0 20px #82c632;
-	color: #fff;
-  font-size: 2rem;
-}
-.sidep{
-  margin-bottom: 0;
-  font-family: 'Barlow Semi Condensed', sans-serif;
-	text-shadow: 0 0 20px #82c632;
-	color: #fff;
-  font-size: 1.5rem;
-}
-.sprize{
-  padding-top: 5%;
-  font-size: 5rem;
-  color: silver;
-}
+
 /*SPEAKERS*/
 #speakers{
   background-image: url("./Cornered-Stairs.svg");
@@ -1148,6 +1173,9 @@ footer svg {
   }
 }
 @media screen and (max-width: 480px){
+  .prize-card{
+    margin: auto;
+  }
   .vertical-space-sponsors{
     padding-top: 4%;
     padding-bottom: 9%;
