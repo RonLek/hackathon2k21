@@ -88,6 +88,15 @@ html {
   display: block;
   text-align: center;
 }
+.discord-btn{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  letter-spacing: 1.5px;
+  transition: 0.2s;
+}
+
+.discord-btn:hover{
+  transform: scale(1.1);
+}
 .event-details{
 	padding-top: 2%;
 	width:20%;
@@ -390,6 +399,7 @@ p.cursor::after {
 	/* text-shadow: 0 0 20px #fff; */
 }
 .hkicons{
+  padding-top: 20px;
   text-align: right;
 }
 .icns-text{
