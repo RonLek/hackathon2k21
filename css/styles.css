@@ -453,7 +453,19 @@ p.cursor::after {
   flex-wrap: wrap;
   max-width: 1500px;
 }
-
+.cardrow{
+  display: flex;
+   flex-wrap: wrap;
+}
+.cardrow > div[class*='col-'] {
+  display: flex;
+}
+.ytlogo{
+  transition: 0.2s;
+}
+.ytlogo:hover{
+  font-size: 6rem;
+}
 .description {
   width: 100%;
   margin-top: 0;
@@ -823,7 +835,6 @@ footer svg {
 .container-faq {
   width: 60%;
   margin: 0 auto;
-  margin-top: 100px;
 }
 
 
@@ -939,10 +950,39 @@ footer svg {
 
 /*SPEAKERS*/
 #speakers{
-  background-image: url("./Cornered-Stairs.svg");
+  background-image: url("./Confetti-Doodles.svg");
+  padding-bottom: 100px;
+}
+.card-deck{
+  width: 80%;
+  margin: auto;
+}
+.speaker-photo{
+  padding-top: 5%;
+  width: 60%;
+  margin: auto;
+  border-radius: 100%;
 }
 
-
+.speaker-card{
+  background-image: inherit;
+  border-radius: 10%;
+  box-shadow: 5px 10px black;
+  height: 55vh;
+}
+.speaker-details{
+  text-align: center;
+	text-align: center;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-shadow: 0 0 20px #82c632;
+	color: #fff;
+}
+.card-title{
+  font-size: 2rem;
+}
+.card-text{
+  font-size: 1.5rem;
+}
 /*SPONSORS*/
 #sponsors{
   background-image: url("./Confetti-Doodles.svg");
@@ -1285,6 +1325,10 @@ footer svg {
 	.icns-text{
 		padding-bottom: 30px;
 	}
+  .speaker-card{
+    height: 60vh;
+    margin: auto;
+  }
 }
 
 .contact-list{
