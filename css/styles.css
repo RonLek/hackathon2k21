@@ -443,7 +443,22 @@ p.cursor::after {
 	text-shadow: 0 0 20px #82c632;
 	color: #fff;
 }
+.yt-link{
+  transition: 0.2s;
+}
 
+.yt-link:hover{
+  transform: scale(1.1);
+}
+
+.sec-head h5{
+  padding-top: 3%;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-shadow: 0 0 20px #82c632;
+	color: #fff;
+}
 
 .content {
   display: flex;
