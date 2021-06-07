@@ -980,7 +980,10 @@ footer svg {
   margin: auto;
   border-radius: 100%;
 }
-
+.empty-card{
+  min-height: 0;
+  height: 0;
+}
 .speaker-card{
   background-image: inherit;
   border-radius: 10%;
