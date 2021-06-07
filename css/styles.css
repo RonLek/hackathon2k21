@@ -985,7 +985,7 @@ footer svg {
   background-image: inherit;
   border-radius: 10%;
   box-shadow: 5px 10px black;
-  height: 55vh;
+  height: 60%;
 }
 .speaker-details{
   text-align: center;
@@ -1355,7 +1355,7 @@ footer svg {
 		padding-bottom: 30px;
 	}
   .speaker-card{
-    height: 60vh;
+    height: 65vh;
     margin: auto;
   }
 }
