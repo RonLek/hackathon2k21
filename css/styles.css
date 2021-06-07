@@ -446,7 +446,9 @@ p.cursor::after {
 .yt-link{
   transition: 0.2s;
 }
-
+.empty-card{
+  background-image: inherit;
+}
 .yt-link:hover{
   transform: scale(1.1);
 }
@@ -997,6 +999,18 @@ footer svg {
 }
 .card-text{
   font-size: 1.5rem;
+}
+
+#side-events{
+  background-image: url("./Confetti-Doodles.svg");
+  padding-bottom: 5%;
+}
+.event-div{
+  text-align: center;
+}
+.side-img{
+  width:70%;
+  height: auto;
 }
 /*SPONSORS*/
 #sponsors{
