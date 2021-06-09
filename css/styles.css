@@ -1535,3 +1535,8 @@ footer svg {
   background-image: url("./images/Confetti-Doodles.svg");
   padding: 6%;
 }
+
+.side-event-back{
+  margin: 0;
+  background-color: #141614;
+}
