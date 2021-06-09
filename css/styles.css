@@ -1415,7 +1415,7 @@ footer svg {
 .event-image{
   
   height: 80%;
-  width:50%;
+  width:70%;
   display: block;
   margin: auto;
   border-radius: 5%;
@@ -1432,16 +1432,17 @@ footer svg {
 }
 .about-event{
   padding-top: 3%;
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 .about-event p{
+  text-transform: uppercase;
   text-align: justify;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
   font-size: 2rem;
   line-height: 3rem;
-  text-shadow: 0 0 20px #82c632;
   color: white;
+  font-weight: bold;
 }
 #event-my-id{
   background-image: url("./images/Confetti-Doodles.svg");
