@@ -1257,115 +1257,11 @@ footer svg {
   .footer-distributed .footer-center i{
     margin-left: 0;
   }
+  .about-event p{
+    font-size: 10px;
+  }
 }
-@media screen and (max-width: 480px){
-  .prize-card{
-    margin: auto;
-  }
-  .vertical-space-sponsors{
-    padding-top: 4%;
-    padding-bottom: 9%;
-  }
-	@keyframes wave {
-	  to {transform: translateX(-100%);}
-	}
-  #title{
-    background-image: none;
-    background-color:rgba(0, 0, 0, 0.12);
-  }
-	.eclogo{
-		padding-top: 20px;
-		max-height: 100px;
-		max-width: auto;
-	}
-	.heading{
-		padding-top: 50px;
-	}
-	.heading h1{
-		font-size: 50px;
-		letter-spacing: 5px;
-	}
-	.sub-container{
-		width: 80%;
-		margin: auto;
-    text-align: center;
-	}
-  .applybtn{
-    font-size: 1rem;
-  }
-	.countdown h2{
-		padding-top: 10px;
-		font-size: 30px;
-		padding-bottom: 0;
-	}
-	#timer{
-		font-size: 2rem;
-	}
-	#timer div span{
-		font-size: 0.35rem;
-	}
-	.smlogos{
-    position: relative;
-		/* padding-left: 5px; */
-		padding-top: 35%;
-		font-size: 12px;
-	}
-	.socialmedia p{
-		visibility: hidden;
-	}
-	.socialmedia li{
-		display: inline;
-		padding-right: 20px;
-	}
-  #about{
-    padding-bottom: 10%;
-  }
-	.about-hack{
-		top: 10%;
-	}
-	.about-hack h2{
-		font-size: 25px;
-		padding-top: 5%;
-		padding-bottom: 20px;
-	}
-	.about-hack p{
-		padding-top: 0;
-		font-size: 0.75rem;
-		width: 85%;
-    text-align: justify;
-	}
-	.icns-text h3{
-    text-align: center;
-		font-size: 1rem;
 
-	}
-  .hkicons{
-    text-align: center;
-  }
-  .hackic{
-    font-size: 3rem;
-  }
-	.icns-text h4{
-    text-align: center;
-		font-size: 0.8rem;
-	}
-	.about-hack p{
-		padding-bottom: 10px;
-	}
-	.neon-box{
-		height: 97vh;
-	}
-	#about{
-		padding-top: 80px;
-	}
-	.icns-text{
-		padding-bottom: 30px;
-	}
-  .speaker-card{
-    height: 65%;
-    margin: auto;
-  }
-}
 
 .contact-list{
 	padding-top: 30px;
@@ -1533,10 +1429,142 @@ footer svg {
 }
 #event-my-id{
   background-image: url("./images/Confetti-Doodles.svg");
-  padding: 6%;
+  padding-top: 6%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 10%;
 }
 
 .side-event-back{
   margin: 0;
   background-color: #141614;
+}
+@media screen and (max-width: 480px){
+  .main-event-box{
+    padding-bottom: 20%;
+  }
+  #event-my-id{
+    padding-bottom: 20%;
+  }
+  .text{
+    font-size: 15px;
+  }
+  .event-image{
+    width:80%;
+  }
+  .about-event{
+    padding-top: 3%;
+    width: 80%;
+    margin: auto;
+  }
+  .about-event p{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .prize-card{
+    margin: auto;
+  }
+  .vertical-space-sponsors{
+    padding-top: 4%;
+    padding-bottom: 9%;
+  }
+	@keyframes wave {
+	  to {transform: translateX(-100%);}
+	}
+  #title{
+    background-image: none;
+    background-color:rgba(0, 0, 0, 0.12);
+  }
+	.eclogo{
+		padding-top: 20px;
+		max-height: 100px;
+		max-width: auto;
+	}
+	.heading{
+		padding-top: 50px;
+	}
+	.heading h1{
+		font-size: 50px;
+		letter-spacing: 5px;
+	}
+	.sub-container{
+		width: 80%;
+		margin: auto;
+    text-align: center;
+	}
+  .applybtn{
+    font-size: 1rem;
+  }
+	.countdown h2{
+		padding-top: 10px;
+		font-size: 30px;
+		padding-bottom: 0;
+	}
+	#timer{
+		font-size: 2rem;
+	}
+	#timer div span{
+		font-size: 0.35rem;
+	}
+	.smlogos{
+    position: relative;
+		/* padding-left: 5px; */
+		padding-top: 35%;
+		font-size: 12px;
+	}
+	.socialmedia p{
+		visibility: hidden;
+	}
+	.socialmedia li{
+		display: inline;
+		padding-right: 20px;
+	}
+  #about{
+    padding-bottom: 10%;
+  }
+	.about-hack{
+		top: 10%;
+	}
+	.about-hack h2{
+		font-size: 25px;
+		padding-top: 5%;
+		padding-bottom: 20px;
+	}
+	.about-hack p{
+		padding-top: 0;
+		font-size: 0.75rem;
+		width: 85%;
+    text-align: justify;
+	}
+	.icns-text h3{
+    text-align: center;
+		font-size: 1rem;
+
+	}
+  .hkicons{
+    text-align: center;
+  }
+  .hackic{
+    font-size: 3rem;
+  }
+	.icns-text h4{
+    text-align: center;
+		font-size: 0.8rem;
+	}
+	.about-hack p{
+		padding-bottom: 10px;
+	}
+	.neon-box{
+		height: 97vh;
+	}
+	#about{
+		padding-top: 80px;
+	}
+	.icns-text{
+		padding-bottom: 30px;
+	}
+  .speaker-card{
+    height: 65%;
+    margin: auto;
+  }
 }
