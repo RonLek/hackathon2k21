@@ -1421,11 +1421,20 @@ footer svg {
   border-radius: 5%;
   box-shadow: 5px 10px #00FF1A;
 }
-
-.event-title-here h2{
+.event-title-here{
   padding-top: 3%;
+}
+.event-title-here h2{
 	font-size: 70px;
 	text-align: center;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-shadow: 0 0 20px #82c632;
+	color: #fff;
+}
+.sec-heding{
+  padding-bottom: 4%;
+  font-size: 2vw;
+  text-align: center;
 	font-family: 'Barlow Semi Condensed', sans-serif;
 	text-shadow: 0 0 20px #82c632;
 	color: #fff;
@@ -1455,6 +1464,46 @@ footer svg {
 .side-event-back{
   margin: 0;
   background-color: #141614;
+}
+.medal-side{
+  width: 60%;
+  margin: auto;
+  font-size: 4vw;
+	text-align: left;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	text-shadow: 0 0 20px #82c632;
+}
+.user{
+  padding-top: 1vw;
+  width: 60%;
+  margin: auto;
+  font-size: 4vw;
+	text-align: left;
+}
+.partuser{
+  color: #00FF1A;
+}
+
+.participation{
+  vertical-align: middle;
+  color: white;
+  padding-left: 2vw;
+  font-size: 2vw;
+  font-family: 'Azonix', sans-serif;
+}
+.goldmedal{
+  color: gold;
+}
+.silmedal{
+  padding-left: 10vw;
+	color: silver;
+}
+.pmoney-side{
+  padding-bottom: 1vw;
+  padding-left: 3vw;
+  font-size: 3vw;
+  font-family: 'Azonix',sans-serif;
+  color: white;
 }
 @media screen and (max-width: 480px){
   .main-event-box{
