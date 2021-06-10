@@ -1506,6 +1506,16 @@ footer svg {
   color: white;
 }
 @media screen and (max-width: 480px){
+  .about-event{
+    width: 90%;
+  }
+  .medal-side{
+    width: 90%;
+  }
+  .user{
+    padding-top: 5%;
+    width: 90%;
+  }
   .main-event-box{
     padding-bottom: 20%;
   }
@@ -1633,4 +1643,16 @@ footer svg {
     height: 65%;
     margin: auto;
   }
+  .pmoney-side{
+    font-size: 5vw;
+  }
+  .sec-heding{
+    
+    font-size: 7vw;
+    padding-left: 0;
+  }
+  .participation{
+    font-size: 5vw;
+  }
+  
 }
