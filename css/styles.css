@@ -974,8 +974,12 @@ footer svg {
   background-image: url("./Confetti-Doodles.svg");
   padding-bottom: 100px;
 }
-.card-deck{
+.card-deck-bottom{
   width: 80%;
+  margin: auto;
+}
+.card-deck-top{
+  width: 60%;
   margin: auto;
 }
 .speaker-photo{
@@ -1506,6 +1510,10 @@ footer svg {
   color: white;
 }
 @media screen and (max-width: 480px){
+  .card-deck-top{
+    width: 80%;
+    margin: auto;
+  }
   .about-event{
     width: 90%;
   }
